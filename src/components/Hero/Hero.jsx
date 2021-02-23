@@ -24,16 +24,14 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <div className="d-flex justify-content-center">
-            <h1 className="hero-title text-left">
-              {title || 'Primero que nada...'}{' '}
-              <span className="text-color-main">{name || 'buenas tardes!'}</span>
-              <br />
-              {subtitle || 'Buscabas un Desarrollador Fullstack?'}
-            </h1>
-          </div>
-        </Fade>
+        <div className="d-flex justify-content-center">
+          <h1 className="hero-title text-left">
+            {title || 'Primero que nada...'}{' '}
+            <span className="text-color-main">{name || 'buenas tardes!'}</span>
+            <br />
+            {subtitle || 'Buscabas un Desarrollador Fullstack?'}
+          </h1>
+        </div>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
