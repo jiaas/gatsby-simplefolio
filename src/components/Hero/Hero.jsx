@@ -10,14 +10,13 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container>
-        <div className="d-flex ">
-          <h1 className="hero-title justify-content-center text-left">
-            {title || 'Primero que nada...'}{' '}
-            <span className="text-color-main">{name || 'buenas tardes!'}</span>
-            <br />
-            {subtitle || 'Buscabas un Desarrollador Fullstack?'}
-          </h1>
-        </div>
+        <h1 className="hero-title">
+          {title || 'Primero que nada...'}{' '}
+          <span className="text-color-main">{name || 'buenas tardes!'}</span>
+          <br />
+          {subtitle || 'Buscabas un Desarrollador Fullstack?'}
+        </h1>
+
         <p className="hero-cta">
           <span className="cta-btn cta-btn--hero">
             <Link to="about" smooth duration={500}>
