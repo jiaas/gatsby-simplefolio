@@ -9,15 +9,15 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Primero que nada... ',
+  name: 'buenas tardes!',
+  subtitle: 'Buscabas un Desarrollador Fullstack?',
+  cta: 'NO hagas click aquí!',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'avatar.webp',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
