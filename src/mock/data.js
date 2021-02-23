@@ -32,7 +32,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Soporte técnico y capacitación de Usuarios',
+    title: 'Soporte técnico y capacitaciones',
     info: '',
     info2: '',
     url: '',
@@ -41,7 +41,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Mantención, mejora y optimización de código',
+    title: 'Mantención y mejora continua',
     info: '',
     info2: '',
     url: '',
@@ -50,7 +50,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Desarrollo fullstack de productos tecnológicos multiplataforma',
+    title: 'Desarrollo de productos tecnológicos multiplataforma',
     info: '',
     info2: '',
     url: '',
@@ -60,9 +60,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Siempre estoy escuchando buenas ideas',
+  btn: 'ENVÍAME UN CORREO',
+  email: 'javier@nora.cl',
 };
 
 // FOOTER DATA
