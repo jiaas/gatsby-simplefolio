@@ -35,19 +35,19 @@ const About = () => {
                     <Row>
                       <Col xs={12} md={12} lg={12}>
                         <AboutImg alt="profile picture" filename={img} />
-                        <div style={{ paddingTop: '5%', paddingBottom: '5%' }}>
+                        <div style={{ paddingTop: '5%', paddingBottom: '6%' }}>
                           <h1>Javier Ignacio</h1>
                           <h1>Quinteros Carvajal</h1>
                         </div>
                         <Badge
                           pill
                           style={{
-                            backgroundColor: '#00cdac',
+                            backgroundColor: '#272341',
                             color: '#fff',
-                            paddingTop: '7%',
-                            paddingBottom: '3%',
-                            paddingLeft: '5%',
-                            paddingRight: '5%',
+                            paddingTop: '6%',
+                            paddingBottom: '2%',
+                            paddingLeft: '10%',
+                            paddingRight: '10%',
                             fontWeight: 'normal !important',
                           }}
                         >
@@ -62,7 +62,7 @@ const About = () => {
                           rel="noopener noreferrer"
                           target="_blank"
                         >
-                          <i className="fa fa-linkedin fa-inverse" style={{ color: 'black' }} />{' '}
+                          <i className="fa fa-linkedin fa-inverse" style={{ color: '#272341' }} />{' '}
                         </a>
                       </Col>
                       <Col>
@@ -71,7 +71,7 @@ const About = () => {
                           rel="noopener noreferrer"
                           target="_blank"
                         >
-                          <i className="fa fa-twitter fa-inverse" style={{ color: 'black' }} />{' '}
+                          <i className="fa fa-twitter fa-inverse" style={{ color: '#272341' }} />{' '}
                         </a>
                       </Col>
                       <Col>
@@ -80,7 +80,7 @@ const About = () => {
                           rel="noopener noreferrer"
                           target="_blank"
                         >
-                          <i className="fa fa-github fa-inverse" style={{ color: 'black' }} />{' '}
+                          <i className="fa fa-github fa-inverse" style={{ color: '#272341' }} />{' '}
                         </a>
                       </Col>
                     </Row>

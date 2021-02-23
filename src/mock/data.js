@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Javier Ignacio Quinteros | Desarrollador', // e.g: 'Name | Developer'
+  lang: 'es', // e.g: en, es, fr, jp
+  description: 'Buscabas un Desarrollador Fullstack?', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -18,10 +18,13 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'avatarHigh.webp',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'Soy  un   Analista Programador   de   25 años,  nací  en  Chile  y actualmente vivo la comuna de Pedro Aguirre Cerda, Santiago.',
+  paragraphTwo:
+    'Desde  pequeño  me  apasiona  la  tecnología, dediqué  muchas de mis horas libres a aprender  de  forma  autodidacta  y fue el  año 2014  cuando tomé la decisión  de convertir  mi   hobbie en  una  carrera   profesional,  comenzando formalmente mis estudios en INACAP.',
+  paragraphThree:
+    'Lo que más me motiva es trabajar en la  construcción  productos tecnológicos  que tengan como principal objetivo ser un aporte en la calidad de vida de nuestros usuarios.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,7 +32,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Soporte técnico y capacitación de Usuarios',
     info: '',
     info2: '',
     url: '',
@@ -38,7 +41,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Mantención, mejora y optimización de código',
     info: '',
     info2: '',
     url: '',
@@ -47,7 +50,16 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Desarrollo fullstack de productos tecnológicos multiplataforma',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Coordinador Departamento de Desarrollo',
     info: '',
     info2: '',
     url: '',
