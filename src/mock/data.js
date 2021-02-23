@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'avatar.webp',
+  img: 'avatarHigh.webp',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
