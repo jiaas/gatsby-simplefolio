@@ -9,9 +9,9 @@ const Header = () => {
 
   return (
     <section id="hero" className="jumbotron">
-      <Container style={{ paddingLeft: '5%' }}>
-        <div className="d-flex justify-content-center">
-          <h1 className="hero-title text-left">
+      <Container>
+        <div className="d-flex ">
+          <h1 className="hero-title justify-content-center text-left">
             {title || 'Primero que nada...'}{' '}
             <span className="text-color-main">{name || 'buenas tardes!'}</span>
             <br />
