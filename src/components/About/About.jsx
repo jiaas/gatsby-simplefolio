@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 
 import { Container, Row, Col, Card, Badge } from 'react-bootstrap';
-// import Title from '../Title/Title';
+import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
@@ -10,8 +10,9 @@ const About = () => {
   const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
 
   return (
-    <section id="about">
-      <Container style={{ paddingTop: '7%' }}>
+    <section id="about" style={{ paddingTop: '10%' }}>
+      <Title title="¿Quién soy?" />
+      <Container>
         <Row className="about-wrapper" style={{ paddingTop: '7%' }}>
           <Col md={6} sm={12}>
             <div className="about-wrapper__image">
