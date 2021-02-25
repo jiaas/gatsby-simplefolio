@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Javier Ignacio Quinteros | Desarrollador', // e.g: 'Name | Developer'
-  lang: 'es', // e.g: en, es, fr, jp
-  description: 'Buscabas un Desarrollador Fullstack?', // e.g: Welcome to my website
+  title: 'Javier Ignacio Quinteros | Desarrollador',
+  lang: 'es',
+  description: 'Buscabas un Desarrollador Fullstack?',
 };
 
 // HERO DATA
@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'avatarHigh.webp',
   paragraphOne:
-    'Soy  un   Analista Programador   de   25 años,  nací  en  Chile  y actualmente vivo la comuna de Pedro Aguirre Cerda, Santiago.',
+    'Una pregunta difícil, <--- escribí eso y ahí me quedé, congelado, y es que a cualquiera le pasa, tantas ideas me vienen a la mente y no me decido que poner.',
   paragraphTwo:
-    'Desde  pequeño  me  apasiona  la  tecnología, dediqué  muchas de mis horas libres a aprender  de  forma  autodidacta  y fue el  año 2014  cuando tomé la decisión  de convertir  mi   hobbie en  una  carrera   profesional,  comenzando formalmente mis estudios en INACAP.',
+    'Lo primero, soy sincero, pero también soy hermano, hijo, amigo, estudiante,  y si estás buscando un desarrollador fullstack, entonces justamente soy a quien buscas.',
   paragraphThree:
-    'Lo que más me motiva es trabajar en la  construcción  productos tecnológicos  que tengan como principal objetivo ser un aporte en la calidad de vida de nuestros usuarios.',
+    'Sobre todo si tienes una oferta de trabajo que involucre un equipo diverso y comprometido con la creación de productos tecnológicos orientados a mejorar la calidad de vida de la comunidad. ',
   resume: '', // if no resume, the button will not show up
 };
 

@@ -74,22 +74,11 @@ const About = () => {
             </div>
           </Col>
           <Col md={6} sm={12}>
-            <Row>
-              <h1>Javier Ignacio</h1>
-            </Row>
-            <Row>
-              <div className="about-wrapper__info justify-content">
-                <p className="about-wrapper__info-text" style={{ textAlign: 'justify' }}>
-                  {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                </p>
-                <p className="about-wrapper__info-text" style={{ textAlign: 'justify' }}>
-                  {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                </p>
-                <p className="about-wrapper__info-text" style={{ textAlign: 'justify' }}>
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
+            <Row style={{ padding: '5%' }}>
+              <div>
+                <p style={{ textAlign: 'justify' }}>{paragraphOne}</p>
+                <p style={{ textAlign: 'justify' }}>{paragraphTwo}</p>
+                <p style={{ textAlign: 'justify' }}>{paragraphThree}</p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
@@ -98,7 +87,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      CV
                     </a>
                   </span>
                 )}
