@@ -15,7 +15,7 @@ const About = () => {
         <Row className="about-wrapper" style={{ paddingTop: '7%' }}>
           <Col md={6} sm={12}>
             <div className="about-wrapper__image">
-              <Card style={{ color: '#272341', padding: '5%', border: '1px solid #00cdac' }}>
+              <Card style={{ color: '#272341', padding: '5%' }}>
                 <Card.Body>
                   <Row>
                     <Col xs={12} md={12} lg={12}>
