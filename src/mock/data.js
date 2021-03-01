@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Desarrollador Fullstack | Javier Ignacio',
   lang: 'es',
-  description: 'Desarrollador Fullstack buscando oportunidades en Santiago de Chile y el mundo.',
+  description: 'Desarrollador Fullstack buscando oportunidades en Santiago de Chile y el Mundo.',
 };
 
 // HERO DATA
@@ -33,28 +33,22 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'Soporte técnico y capacitaciones',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
   },
   {
     id: nanoid(),
     img: 'project.jpg',
     title: 'Mantención y mejora continua',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
   },
   {
     id: nanoid(),
     img: 'project.jpg',
     title: 'Desarrollo de productos tecnológicos multiplataforma',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
   },
 ];
 
