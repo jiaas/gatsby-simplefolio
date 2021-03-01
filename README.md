@@ -1,7 +1,11 @@
 # IGNACIOQUINTEROS.CL ⚡️ [![GitHub](https://img.shields.io/github/license/jiaas/ignacioquinteros.cl?color=blue)](https://github.com/jiaas/ignacioquinteros.cl/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/jiaas/ignacioquinteros.cl) ![GitHub forks](https://img.shields.io/github/forks/jiaas/ignacioquinteros.cl)
 
-## My clean, beautiful and responsive portfolio forked from Gatsby Simplefolio
+## My clean, beautiful and responsive portfolio forked from [Gatsby Simplefolio](https://github.com/cobidev/gatsby-simplefolio)
 
+<h2 align="center">
+  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Gatsby Simplefolio" width="600px" />
+  <br>
+</h2>
 ## Features
 
 ⚡️ Modern UI Design + Reveal Animations\
