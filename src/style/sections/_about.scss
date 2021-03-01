@@ -1,10 +1,9 @@
 #about {
   background-color: $secondary-color;
-
   color: $white-color;
   height: 100%;
-  border-top: 0px;
-  padding-bottom: 30%;
+  padding-top: 10%;
+  padding-bottom: 20%;
 
   @include respond(tab-land) {
     height: 100%;
