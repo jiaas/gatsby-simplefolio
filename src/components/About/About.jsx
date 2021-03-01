@@ -13,7 +13,7 @@ const About = () => {
     <section id="about">
       <Container>
         <div className="about-wrapper">
-          <Title title="¿Quién soy?" />
+          <Title title="¿Quién es Javier Quinteros?" />
           <Row className="about-wrapper">
             <Col md={6} sm={12}>
               <div className="about-wrapper__image">
