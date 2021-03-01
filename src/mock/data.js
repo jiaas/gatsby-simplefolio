@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Javier Ignacio Quinteros | Desarrollador',
+  title: 'Desarrollador Fullstack | Javier Ignacio',
   lang: 'es',
-  description: 'Buscabas un Desarrollador Fullstack?',
+  description: 'Desarrollador Fullstack buscando oportunidades en Santiago de Chile y el mundo.',
 };
 
 // HERO DATA
@@ -60,7 +60,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Siempre estoy escuchando buenas ideas',
+  cta: 'Estoy en busqueda de nuevos desafíos',
   btn: 'ENVÍAME UN CORREO',
   email: 'javier@nora.cl',
 };
@@ -70,28 +70,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/javier-ignacio/',
+    },
+    {
+      id: nanoid(),
+      name: 'twitter',
+      url: 'https://twitter.com/loestoygozando',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/jiaas/ignacioquinteros.cl',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
