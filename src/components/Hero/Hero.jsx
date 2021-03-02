@@ -11,16 +11,15 @@ const Header = () => {
     <section id="hero" className="jumbotron">
       <Container>
         <h1 className="hero-title">
-          {title || 'Primero que nada...'}{' '}
-          <span className="text-color-main">{name || 'buenas tardes!'}</span>
+          {title} <span className="text-color-main">{name}</span>
           <br />
-          {subtitle || 'Buscabas un Desarrollador Fullstack?'}
+          {subtitle}
         </h1>
 
         <p className="hero-cta">
           <span className="cta-btn cta-btn--hero">
             <Link to="about" smooth duration={500}>
-              {cta || 'NO hagas click aquí!'}
+              {cta}
             </Link>
           </span>
         </p>
