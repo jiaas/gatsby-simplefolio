@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'avatarHigh.webp',
   paragraphOne:
-    'Una pregunta difícil, <--- escribí eso y ahí me quedé, congelado, y es que a cualquiera le pasa, tantas ideas me vienen a la mente y no me decido que poner.',
+    'En el año 2019, según un estudio realizado por Evans Data Corporation, en el mundo se contaba con 26.4 millones de desarrolladores.',
   resume: '', // if no resume, the button will not show up
 };
 
