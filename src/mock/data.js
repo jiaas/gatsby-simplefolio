@@ -12,14 +12,17 @@ export const heroData = {
   title: 'Primero que nada... ',
   name: 'buenas tardes!',
   subtitle: 'Buscabas un Desarrollador Fullstack?',
-  cta: 'Dejame presentarte a Javier',
+  cta: 'Déjame presentarte a Javier',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'avatarHigh.webp',
   paragraphOne:
-    'En el año 2019, según un estudio realizado por Evans Data Corporation, en el mundo se contaba con 26.4 millones de desarrolladores.',
+    'El software se ha convertido en una necesidad para todos, independiente del rubro y el tamaño, la tecnología es el eje central en la administración de un negocio.',
+  paragraphTwo:
+    'EL aumento en el uso de tecnologías ha sido proporcional al número de desarrolladores que exiten en el mundo. Según un estudio realizado por la firma Evans Data Corporation, en el año 2019 había aproximadamente 26.4 millones de desarrolladores.',
+  paragraphThree: 'Javier Quinteros es un desarrollador, pero no cualquier desarollador...',
   resume: '', // if no resume, the button will not show up
 };
 
