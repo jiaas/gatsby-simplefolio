@@ -12,7 +12,7 @@ export const heroData = {
   title: 'Primero que nada... ',
   name: 'buenas tardes!',
   subtitle: 'Buscabas un Desarrollador Fullstack?',
-  cta: 'Dejame presentarte a Javier Quinteros',
+  cta: 'Dejame presentarte a Javier',
 };
 
 // ABOUT DATA
