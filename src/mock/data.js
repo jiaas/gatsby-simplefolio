@@ -20,10 +20,6 @@ export const aboutData = {
   img: 'avatarHigh.webp',
   paragraphOne:
     'Una pregunta difícil, <--- escribí eso y ahí me quedé, congelado, y es que a cualquiera le pasa, tantas ideas me vienen a la mente y no me decido que poner.',
-  paragraphTwo:
-    'Lo primero, soy sincero, pero también soy hermano, hijo, amigo, estudiante,  y si estás buscando un desarrollador fullstack, entonces justamente soy a quien buscas.',
-  paragraphThree:
-    'Sobre todo si tienes una oferta de trabajo que involucre un equipo diverso y comprometido con la creación de productos tecnológicos orientados a mejorar la calidad de vida de la comunidad. ',
   resume: '', // if no resume, the button will not show up
 };
 
