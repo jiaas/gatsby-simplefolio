@@ -25,7 +25,7 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="¿Qué valor aporta Javier Quinteros?" />
+          <Title title="¿Qué puede aportar Javier Quinteros en tu equipo?" />
           {projects.map((project) => {
             const { title, info, img, id } = project;
 
