@@ -34,7 +34,7 @@ const CustomProgressBar = ({ tech, completed }) => {
 
 CustomProgressBar.propTypes = {
   tech: PropTypes.string.isRequired,
-  completed: PropTypes.string.isRequired,
+  completed: PropTypes.number.isRequired,
 };
 
 export default CustomProgressBar;
