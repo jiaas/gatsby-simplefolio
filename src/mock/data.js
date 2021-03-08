@@ -12,7 +12,7 @@ export const heroData = {
   title: 'Primero que nada... buenas tardes!',
   name: 'Desarrollador Fullstack?',
   subtitle: 'Buscabas un ',
-  cta: 'Déjame presentarte a Javier',
+  cta: 'Permíteme presentarme',
 };
 
 // ABOUT DATA
@@ -26,24 +26,24 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'image1.png',
     title: 'Soporte técnico y capacitaciones',
     info:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
+      'El éxito de una solución tecnológica no es posible sin un enfoque holístico. Todos los stackholder deben saber como operar el SIA, y aún más importante, deben entender como sus acciones repercuten dentro del flujo del negocio. Como desarrollador tengo experiencia realizando capacitaciones tanto individuales como masivas, obteniendo excelentes resultados en poco tiempo. ',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'image2.png',
     title: 'Mantención y mejora continua',
     info:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
+      'Aunque Software debería ser sinónimo de Valor, no siempre es así, y es que un mal diseño, una mala implementación o la desactualización pueden representar el origen de un problema operativo que repercute negativamente en el flujo del negocio. Por este motivo es fundamental no dejar de medir, testear y optmizar.',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Desarrollo de productos tecnológicos multiplataforma',
+    img: 'image3.png',
+    title: 'Gestión del desarrollo',
     info:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
+      'Como analista he aprendido a ver oportunidades en los "problemas", la experiencia con distintas metodologías de desarrollo me ha dado las herraminetas necesarias para planificar, organizar, dirigir y controlar el proceso de desarrollo, enfocado en el valor e impacto en el negocio.',
   },
 ];
 

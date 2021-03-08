@@ -31,7 +31,20 @@ const Projects = () => {
 
             return (
               <Row key={id}>
-                <Col lg={4} sm={12}>
+                <Col lg={12} sm={12}>
+                  <Fade
+                    right={isDesktop}
+                    bottom={isMobile}
+                    duration={1000}
+                    delay={1000}
+                    distance="30px"
+                  >
+                    <div className="project-wrapper__image" style={{ paddingBottom: '5%' }}>
+                      <div>
+                        <ProjectImg alt={title} filename={img} />
+                      </div>
+                    </div>
+                  </Fade>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
@@ -41,23 +54,8 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title}</h3>
-                      <div>
+                      <div style={{ textAlign: 'justify' }}>
                         <p>{info}</p>
-                      </div>
-                    </div>
-                  </Fade>
-                </Col>
-                <Col lg={8} sm={12}>
-                  <Fade
-                    right={isDesktop}
-                    bottom={isMobile}
-                    duration={1000}
-                    delay={1000}
-                    distance="30px"
-                  >
-                    <div className="project-wrapper__image">
-                      <div className="thumbnail rounded">
-                        <ProjectImg alt={title} filename={img} />
                       </div>
                     </div>
                   </Fade>

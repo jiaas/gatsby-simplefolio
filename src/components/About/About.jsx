@@ -33,15 +33,19 @@ const About = () => {
                 <div className="about-wrapper__image">
                   <Card
                     style={{
-                      color: '#272341',
-                      padding: '5%',
+                      backgroundColor: '#1E1E3F',
+                      color: '#FFFFF',
+                      paddingTop: '5%',
+                      paddingLeft: '5%',
+                      paddingRight: '5%',
+                      paddingBottom: '2%',
                     }}
                   >
                     <Card.Body>
                       <Row>
                         {' '}
                         <Col md={6} sm={12}>
-                          <Row>
+                          <Row style={{ paddingTop: '5%' }}>
                             <Col xs={12} md={12} lg={12}>
                               <AboutImg alt="profile picture" filename={img} />
                               <div style={{ paddingTop: '5%', paddingBottom: '6%' }}>
@@ -51,7 +55,7 @@ const About = () => {
                               <Badge
                                 pill
                                 style={{
-                                  backgroundColor: '#272341',
+                                  backgroundColor: '#4D21FC',
                                   color: '#fff',
                                   paddingTop: '6%',
                                   paddingBottom: '3%',
@@ -78,10 +82,7 @@ const About = () => {
                                 rel="noopener noreferrer"
                                 target="_blank"
                               >
-                                <i
-                                  className="fa fa-linkedin fa-inverse"
-                                  style={{ color: '#272341' }}
-                                />{' '}
+                                <i className="fa fa-linkedin fa-inverse" />{' '}
                               </a>
                             </Col>
                             <Col>
@@ -90,10 +91,7 @@ const About = () => {
                                 rel="noopener noreferrer"
                                 target="_blank"
                               >
-                                <i
-                                  className="fa fa-twitter fa-inverse"
-                                  style={{ color: '#272341' }}
-                                />{' '}
+                                <i className="fa fa-twitter fa-inverse" />{' '}
                               </a>
                             </Col>
                             <Col>
@@ -102,10 +100,7 @@ const About = () => {
                                 rel="noopener noreferrer"
                                 target="_blank"
                               >
-                                <i
-                                  className="fa fa-github fa-inverse"
-                                  style={{ color: '#272341' }}
-                                />{' '}
+                                <i className="fa fa-github fa-inverse" />{' '}
                               </a>
                             </Col>
                           </Row>
@@ -113,12 +108,7 @@ const About = () => {
                         <Col md={6} sm={12}>
                           <Fade bottom duration={1000} delay={600} distance="30px">
                             <Row>
-                              <Col
-                                md={12}
-                                sm={12}
-                                className="text-left"
-                                style={{ padding: '5%', paddingTop: '0%' }}
-                              >
+                              <Col md={12} sm={12} className="text-left" style={{ padding: '5%' }}>
                                 <CustomProgressBar completed={90} tech=".NET (C#) + XAMARIN" />
                               </Col>
                               <Col md={12} sm={12} className="text-left" style={{ padding: '5%' }}>
@@ -137,7 +127,7 @@ const About = () => {
                           </Fade>
                         </Col>
                       </Row>
-                      <Jumbotron fluid>
+                      <Jumbotron fluid style={{ backgroundColor: '#FF9D00' }}>
                         <Container>
                           <h1>Estoy buscando oportunidades laborales</h1>
                           <p

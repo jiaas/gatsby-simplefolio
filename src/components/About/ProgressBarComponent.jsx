@@ -6,14 +6,14 @@ const CustomProgressBar = ({ tech, completed }) => {
   const containerStyles = {
     height: 20,
     width: '100%',
-    backgroundColor: '#051c61',
+    backgroundColor: '#FFEE80',
     borderRadius: 50,
   };
 
   const fillerStyles = {
     height: '100%',
     width: `${completed}%`,
-    backgroundColor: '#e538d1',
+    backgroundColor: '#FAD000',
     borderRadius: 'inherit',
     textAlign: 'right',
   };
