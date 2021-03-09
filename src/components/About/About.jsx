@@ -141,24 +141,26 @@ const About = () => {
           </Row>
           <Row>
             <Col>
-              <Jumbotron fluid style={{ backgroundColor: '#fb7324' }}>
-                <Container>
-                  <h1>Estoy buscando oportunidades laborales</h1>
-                  <p
-                    style={{
-                      textAlign: 'justify',
-                      paddingTop: '2%',
-                      paddingLeft: '2%',
-                      paddingRight: '2%',
-                      fontSize: '190%',
-                    }}
-                  >
-                    Quiero seguir construyendo el futuro, y se que no puedo hacerlo solo, es por eso
-                    que busco integrarme a un equipo donde el respeto y el compañerismo sean valores
-                    fundamentales, innovemos juntos pensando en el bien de la comunidad.
-                  </p>
-                </Container>
-              </Jumbotron>
+              <Fade bottom duration={1000} delay={600} distance="30px">
+                <Jumbotron fluid style={{ backgroundColor: '#fb7324' }}>
+                  <Container>
+                    <h1>Estoy buscando oportunidades laborales</h1>
+                    <p
+                      style={{
+                        textAlign: 'justify',
+                        paddingTop: '2%',
+                        paddingLeft: '2%',
+                        paddingRight: '2%',
+                        fontSize: '190%',
+                      }}
+                    >
+                      Quiero seguir construyendo el futuro, y se que no puedo hacerlo solo, es por
+                      eso que busco integrarme a un equipo donde el respeto y el compañerismo sean
+                      valores fundamentales, innovemos juntos pensando en el bien de la comunidad.
+                    </p>
+                  </Container>
+                </Jumbotron>
+              </Fade>
             </Col>
           </Row>
         </div>
