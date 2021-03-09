@@ -49,8 +49,8 @@ const About = () => {
                             <Col xs={12} md={12} lg={12}>
                               <AboutImg alt="profile picture" filename={img} />
                               <div style={{ paddingTop: '5%', paddingBottom: '6%' }}>
-                                <h1>Javier Ignacio</h1>
-                                <h1>Quinteros Carvajal</h1>
+                                <h1 style={{ fontSize: '350% !important' }}>Javier Ignacio</h1>
+                                <h1 style={{ fontSize: '350% !important' }}>Quinteros Carvajal</h1>
                               </div>
                               <Badge
                                 pill
@@ -64,7 +64,7 @@ const About = () => {
                                   fontWeight: 'normal !important',
                                 }}
                               >
-                                <h3>Desarrollador Fullstack</h3>
+                                <h2>Desarrollador Fullstack</h2>
                               </Badge>
                             </Col>
                           </Row>
@@ -82,7 +82,10 @@ const About = () => {
                                 rel="noopener noreferrer"
                                 target="_blank"
                               >
-                                <i className="fa fa-linkedin fa-inverse" />{' '}
+                                <i
+                                  className="fa fa-linkedin fa-inverse"
+                                  style={{ fontSize: '175%' }}
+                                />{' '}
                               </a>
                             </Col>
                             <Col>
@@ -91,7 +94,10 @@ const About = () => {
                                 rel="noopener noreferrer"
                                 target="_blank"
                               >
-                                <i className="fa fa-twitter fa-inverse" />{' '}
+                                <i
+                                  className="fa fa-twitter fa-inverse"
+                                  style={{ fontSize: '175%' }}
+                                />{' '}
                               </a>
                             </Col>
                             <Col>
@@ -100,7 +106,10 @@ const About = () => {
                                 rel="noopener noreferrer"
                                 target="_blank"
                               >
-                                <i className="fa fa-github fa-inverse" />{' '}
+                                <i
+                                  className="fa fa-github fa-inverse"
+                                  style={{ fontSize: '175%' }}
+                                />{' '}
                               </a>
                             </Col>
                           </Row>
@@ -135,7 +144,7 @@ const About = () => {
           </Row>
           <Row>
             <Col>
-              <Jumbotron fluid style={{ backgroundColor: '#FF9D00' }}>
+              <Jumbotron fluid style={{ backgroundColor: '#fb7324' }}>
                 <Container>
                   <h1>Estoy buscando oportunidades laborales</h1>
                   <p

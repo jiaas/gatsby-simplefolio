@@ -6,7 +6,7 @@ const CustomProgressBar = ({ tech, completed }) => {
   const containerStyles = {
     height: 20,
     width: '100%',
-    backgroundColor: '#FFEE80',
+    backgroundColor: '#FAEFA5',
     borderRadius: 50,
   };
 
