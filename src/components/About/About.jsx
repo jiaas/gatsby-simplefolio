@@ -35,10 +35,7 @@ const About = () => {
                     style={{
                       backgroundColor: '#1E1E3F',
                       color: '#FFFFF',
-                      paddingTop: '5%',
-                      paddingLeft: '5%',
-                      paddingRight: '5%',
-                      paddingBottom: '2%',
+                      padding: '5%',
                     }}
                   >
                     <Card.Body>
