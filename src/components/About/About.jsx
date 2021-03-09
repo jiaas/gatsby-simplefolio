@@ -27,7 +27,7 @@ const About = () => {
       <Container>
         <div className="about-wrapper">
           <Title title="¿Quién es Javier Quinteros?" />
-          <Row className="about-wrapper">
+          <Row>
             <Col md={12} sm={12}>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
                 <div className="about-wrapper__image">
@@ -127,28 +127,32 @@ const About = () => {
                           </Fade>
                         </Col>
                       </Row>
-                      <Jumbotron fluid style={{ backgroundColor: '#FF9D00' }}>
-                        <Container>
-                          <h1>Estoy buscando oportunidades laborales</h1>
-                          <p
-                            style={{
-                              textAlign: 'justify',
-                              paddingTop: '2%',
-                              paddingLeft: '2%',
-                              paddingRight: '2%',
-                            }}
-                          >
-                            Quiero seguir construyendo el futuro, y se que no puedo hacerlo solo, es
-                            por eso que busco integrarme a un equipo donde el respeto y el
-                            compañerismo sean valores fundamentales, innovemos juntos pensando en el
-                            bien de la comunidad.
-                          </p>
-                        </Container>
-                      </Jumbotron>
                     </Card.Body>
                   </Card>
                 </div>
               </Fade>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Jumbotron fluid style={{ backgroundColor: '#FF9D00' }}>
+                <Container>
+                  <h1>Estoy buscando oportunidades laborales</h1>
+                  <p
+                    style={{
+                      textAlign: 'justify',
+                      paddingTop: '2%',
+                      paddingLeft: '2%',
+                      paddingRight: '2%',
+                      fontSize: '190%',
+                    }}
+                  >
+                    Quiero seguir construyendo el futuro, y se que no puedo hacerlo solo, es por eso
+                    que busco integrarme a un equipo donde el respeto y el compañerismo sean valores
+                    fundamentales, innovemos juntos pensando en el bien de la comunidad.
+                  </p>
+                </Container>
+              </Jumbotron>
             </Col>
           </Row>
         </div>
