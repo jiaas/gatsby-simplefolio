@@ -33,7 +33,7 @@ const About = () => {
                 <div className="about-wrapper__image">
                   <Card
                     style={{
-                      backgroundColor: '#1E1E3F',
+                      backgroundColor: '#0d0630',
                       color: '#FFFFF',
                       padding: '5%',
                     }}
@@ -142,7 +142,7 @@ const About = () => {
           <Row>
             <Col>
               <Fade bottom duration={1000} delay={600} distance="30px">
-                <Jumbotron fluid style={{ backgroundColor: '#fb7324' }}>
+                <Jumbotron fluid style={{ backgroundColor: '#fb7324', color: '#f6f7eb' }}>
                   <Container>
                     <h1>Estoy buscando oportunidades laborales</h1>
                     <p
