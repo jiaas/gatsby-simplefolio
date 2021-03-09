@@ -46,8 +46,8 @@ const About = () => {
                             <Col xs={12} md={12} lg={12}>
                               <AboutImg alt="profile picture" filename={img} />
                               <div style={{ paddingTop: '5%', paddingBottom: '6%' }}>
-                                <h1 style={{ fontSize: '350% !important' }}>Javier Ignacio</h1>
-                                <h1 style={{ fontSize: '350% !important' }}>Quinteros Carvajal</h1>
+                                <h1 style={{ fontSize: '330% !important' }}>Javier Ignacio</h1>
+                                <h1 style={{ fontSize: '330% !important' }}>Quinteros Carvajal</h1>
                               </div>
                               <Badge
                                 pill
@@ -81,7 +81,7 @@ const About = () => {
                               >
                                 <i
                                   className="fa fa-linkedin fa-inverse"
-                                  style={{ fontSize: '175%' }}
+                                  style={{ fontSize: '150%' }}
                                 />{' '}
                               </a>
                             </Col>
@@ -93,7 +93,7 @@ const About = () => {
                               >
                                 <i
                                   className="fa fa-twitter fa-inverse"
-                                  style={{ fontSize: '175%' }}
+                                  style={{ fontSize: '150%' }}
                                 />{' '}
                               </a>
                             </Col>
@@ -105,7 +105,7 @@ const About = () => {
                               >
                                 <i
                                   className="fa fa-github fa-inverse"
-                                  style={{ fontSize: '175%' }}
+                                  style={{ fontSize: '150%' }}
                                 />{' '}
                               </a>
                             </Col>
